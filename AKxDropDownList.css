@@ -1,0 +1,86 @@
+.dropbtn { 
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+     width: 100%;
+     display:block;
+    text-decoration: none !important;
+}
+
+.wrapper-dropdown {
+    /* Size & position */
+    position: relative;
+    width: 100%;
+    padding: 0px  15px;
+    text-decoration: none !important;
+    transition: all 0.3s ease-out;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.wrapper-dropdown:after { /* Little arrow */
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color:#ddd transparent;
+    word-wrap: break-word;
+  
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    outline: none;
+     border: 1px solid #ddd!important;
+    
+}
+
+.dropdown-contentAK {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-contentAK a {
+    color: black;
+    padding: 0px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd!important;}
+
+.show {display: block;}
+
+.search{
+    background-image: url(https://raw.githubusercontent.com/akoulouris/AKxDropDownList/master/Search.PNG);
+    background-position: -3px -1px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    /*padding: 14px 20px 12px 45px;*/
+        padding-top: 5px;
+        padding-bottom:5px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding-left: 31px;
+        width: 100%;
+            border-radius: 60px
+}
